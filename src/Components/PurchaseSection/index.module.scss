@@ -1,0 +1,63 @@
+.main {
+    display: flex;
+    justify-content: center;
+    padding: 219px 0 172px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 500;
+    color: #091133;
+    line-height: 48px;
+}
+
+.text {
+    padding: 16px 0 0;
+    color: #6F7CB2;
+    font-size: 16px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.price {
+    padding: 36px 0 0;
+    font-size: 50px;
+    font-weight: 500;
+    color: #222F65;
+}
+
+.priceText {
+    font-size: 16px;
+    color: #37447E;
+}
+
+.buttonText {
+    padding: 60px 0 0;
+    font-size: 14px;
+    color: #5D6970;
+}
+
+.button {
+    width: 190px;
+    height: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 0 0;
+
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+
+    border: 1px solid #000000;
+    background-color: #111B47;
+}
