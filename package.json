@@ -2,10 +2,13 @@
   "name": "template",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://reddan61.github.io/template/",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "dev": "webpack serve"
+    "dev": "webpack serve",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +16,7 @@
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "css-loader": "^7.1.2",
+    "gh-pages": "^6.1.1",
     "html-webpack-plugin": "^5.6.0",
     "sass": "^1.77.6",
     "sass-loader": "^14.2.1",
